@@ -26,11 +26,11 @@ const PembelianTagihan = () => {
         </a>
       </div>
       <Swiper
-        spaceBetween={12}
+        spaceBetween={10}
         slidesPerView={3}
         breakpoints={{
-          640: { slidesPerView: 3 },
-          1024: { slidesPerView: 4 },
+          640: { slidesPerView: 3, spaceBetween: 24 },
+          1024: { slidesPerView: 4, spaceBetween: 32 },
         }}
       >
         {products.map((imgs, idx) => (
@@ -40,9 +40,9 @@ const PembelianTagihan = () => {
                 <img
                   key={i}
                   src={img}
-                  className={`w-full h-auto rounded-lg${
+                  className={`w-32 h-auto rounded-lg${
                     i === 0 ? " mb-2" : ""
-                  } w-24 sm:w-46 md:w-120`}
+                  } sm:w-32 md:w-36 lg:w-120`}
                   alt="..."
                 />
               ))}
