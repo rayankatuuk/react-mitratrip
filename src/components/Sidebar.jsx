@@ -112,7 +112,7 @@ const Sidebar = ({ onClose }) => {
           </li>
           <li>
             <a
-              href="./index.html"
+              href="/"
               className="flex items-center py-2 text-red-600 hover:bg-gray-100 rounded md:py-3 md:text-lg"
             >
               <i className="bi bi-door-open mr-2"></i> Keluar

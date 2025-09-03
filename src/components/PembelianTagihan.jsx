@@ -8,10 +8,8 @@ const products = [
 const PembelianTagihan = () => {
   return (
     <div className="p-4 bg-green-700">
-      <div className="flex justify-between mb-2">
-        <h6 className="mb-2 text-white font-bold text-lg">
-          Pembayaran Tagihan & Top Up
-        </h6>
+      <div className="flex justify-between">
+        <h6 className="mb-2 text-white font-bold text-lg">Produk Digital</h6>
         <a className="text-white text-decoration-none" href="#">
           LIHAT SEMUA <i className="bi bi-arrow-right-circle-fill" />
         </a>
