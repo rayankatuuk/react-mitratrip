@@ -51,7 +51,7 @@ const NavbarBottom = () => {
           <span>
             <i className="bi bi-gear text-2xl"></i>
           </span>
-          <p className="text-xs font-medium">SETTING</p>
+          <p className="text-xs font-medium">SETTINGS</p>
         </a>
       </div>
     </div>
