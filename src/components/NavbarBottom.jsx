@@ -13,9 +13,9 @@ const NavbarBottom = () => {
           onClick={() => setActiveMenu("BERANDA")}
         >
           <span>
-            <i className="bi bi-house text-2xl"></i>
+            <i className="bi bi-house text-md"></i>
           </span>
-          <p className="text-xs font-medium">BERANDA</p>
+          <p className="text-xs font-medium">Beranda</p>
         </a>
         <a
           className={`flex flex-col items-center justify-center w-1/4 py-2 ${
@@ -24,9 +24,9 @@ const NavbarBottom = () => {
           onClick={() => setActiveMenu("RIWAYAT")}
         >
           <span>
-            <i className="bi bi-clock-history text-2xl"></i>
+            <i className="bi bi-clock-history text-md"></i>
           </span>
-          <p className="text-xs font-medium">RIWAYAT</p>
+          <p className="text-xs font-medium">Riwayat</p>
         </a>
         <a
           className={`flex flex-col items-center justify-center w-1/4 py-2 ${
@@ -35,9 +35,9 @@ const NavbarBottom = () => {
           onClick={() => setActiveMenu("NOTIFIKASI")}
         >
           <span>
-            <i className="bi bi-app-indicator text-2xl"></i>
+            <i className="bi bi-app-indicator text-md"></i>
           </span>
-          <p className="text-xs font-medium">NOTIFIKASI</p>
+          <p className="text-xs font-medium">Notifikasi</p>
         </a>
         <a
           className={`flex flex-col items-center justify-center w-1/4 py-2 ${
@@ -46,9 +46,9 @@ const NavbarBottom = () => {
           onClick={() => setActiveMenu("SETTING")}
         >
           <span>
-            <i className="bi bi-gear text-2xl"></i>
+            <i className="bi bi-gear text-md"></i>
           </span>
-          <p className="text-xs font-medium">SETTINGS</p>
+          <p className="text-xs font-medium">Settings</p>
         </a>
       </div>
     </div>

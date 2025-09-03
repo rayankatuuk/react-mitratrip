@@ -20,8 +20,8 @@ const PembelianTagihan = () => {
   return (
     <div className="p-4 bg-green-700">
       <div className="flex justify-between">
-        <h6 className="mb-2 text-white font-bold text-lg">Produk Digital</h6>
-        <a className="text-white text-decoration-none text-sm" href="#">
+        <h6 className="mb-2 text-white font-bold text-md">Produk Digital</h6>
+        <a className="text-white text-decoration-none text-xs" href="#">
           Lihat Semua <i className="bi bi-arrow-right-circle-fill" />
         </a>
       </div>

@@ -15,16 +15,16 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="p-4 shadow bg-green-700 sticky top-0 z-50">
+      <div className="p-4 shadow-lg bg-green-700 sticky top-0 z-50">
         {/* Navbar Brand */}
         <div className="flex items-center">
-          <a href="/" className="font-semibold text-white text-2xl">
+          <a href="/" className="font-semibold text-white text-lg">
             MitraTrip<span className="text-yellow-400">.com</span>
           </a>
           <div className="ms-auto flex items-center">
             <a
               href="#"
-              className="mr-3 text-white text-base text-decoration-none"
+              className="mr-3 text-white text-sm text-decoration-none"
             >
               <i className="m-2 bi-plus-circle" />
               Saldo : Rp 0.
@@ -42,11 +42,11 @@ const Navbar = () => {
         {showSearch && (
           <div className="bg-white border-0 shadow rounded overflow-hidden mt-3 flex items-center px-4 gap-2">
             <span className="bg-white border-0">
-              <i className="bi bi-search"></i>
+              <i className="bi bi-search text-md"></i>
             </span>
             <input
               type="text"
-              className="flex-1 outline-none border-none bg-transparent m-2"
+              className="flex-1 outline-none border-none bg-transparent my-2 text-xs"
               placeholder="Sudah isi pulsa hari ini..?"
             />
           </div>

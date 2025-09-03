@@ -14,7 +14,7 @@ const PromoHariIni = () => (
   <div className="py-4">
     <div className="px-4 flex justify-between">
       <h6 className="mb-2 text-black font-bold">Promo Hari Ini</h6>
-      <a className="text-green-700 no-underline text-sm" href="#">
+      <a className="text-green-700 no-underline text-xs" href="#">
         Lihat Semua <i className="bi bi-arrow-right-circle-fill" />
       </a>
     </div>
