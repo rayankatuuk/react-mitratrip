@@ -31,9 +31,12 @@ const PromoHariIni = () => (
     >
       {products.map((promo, idx) => (
         <SwiperSlide key={idx}>
-          <div className="py-2 flex flex-col items-center min-w-[120px]">
+          <div className="flex flex-col items-center min-w-[120px]">
             <a href="#">
-              <img src={promo.img} className="w-full h-auto" />
+              <img
+                src={promo.img}
+                className="w-20 h-20 md:w-28 md:h-28 rounded-lg object-contain"
+              />
             </a>
           </div>
         </SwiperSlide>
