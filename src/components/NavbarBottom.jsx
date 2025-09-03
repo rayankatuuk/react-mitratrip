@@ -21,7 +21,6 @@ const NavbarBottom = () => {
           className={`flex flex-col items-center justify-center w-1/4 py-2 ${
             activeMenu === "RIWAYAT" ? "text-yellow-400" : "text-white"
           }`}
-          href="#"
           onClick={() => setActiveMenu("RIWAYAT")}
         >
           <span>
@@ -33,7 +32,6 @@ const NavbarBottom = () => {
           className={`flex flex-col items-center justify-center w-1/4 py-2 ${
             activeMenu === "NOTIFIKASI" ? "text-yellow-400" : "text-white"
           }`}
-          href="#"
           onClick={() => setActiveMenu("NOTIFIKASI")}
         >
           <span>
@@ -45,7 +43,6 @@ const NavbarBottom = () => {
           className={`flex flex-col items-center justify-center w-1/4 py-2 ${
             activeMenu === "SETTING" ? "text-yellow-400" : "text-white"
           }`}
-          href="#"
           onClick={() => setActiveMenu("SETTING")}
         >
           <span>
