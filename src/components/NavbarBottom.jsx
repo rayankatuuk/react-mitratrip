@@ -4,7 +4,7 @@ const NavbarBottom = () => {
   const [activeMenu, setActiveMenu] = useState("BERANDA");
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 w-full mx-auto rounded-lg shadow-sm p-2 z-40">
+    <div className="fixed bottom-0 left-0 right-0 w-full mx-auto rounded-lg shadow-sm p-1 z-40">
       <div className="flex justify-between items-center rounded-lg shadow bg-green-700">
         <a
           className={`flex flex-col items-center justify-center w-1/4 py-2 ${

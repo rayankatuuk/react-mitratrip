@@ -33,7 +33,7 @@ const Sidebar = ({ onClose }) => {
                 alt="Profile"
               />
               <div>
-                <h6 className="mb-0 text-white font-semibold md:text-xl">
+                <h6 className="text-white font-semibold md:text-xl">
                   Mitra Trip
                 </h6>
                 <small className="text-white md:text-base">
@@ -49,7 +49,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-person mr-2"></i> Edit Profile
             </a>
@@ -57,7 +57,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-shop mr-2"></i> Lihat Lisensi
             </a>
@@ -65,7 +65,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-person-plus mr-2"></i> Daftar Agen
             </a>
@@ -73,7 +73,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-plus-square mr-2"></i> Top Up
             </a>
@@ -81,7 +81,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-box-arrow-in-down mr-2"></i> Komisi Transaksi
             </a>
@@ -89,7 +89,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-wallet mr-2"></i> Metode Pembayaran
             </a>
@@ -97,7 +97,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-clock-history mr-2"></i> Riwayat
             </a>
@@ -105,7 +105,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="#"
-              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-gray-700 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-gear mr-2"></i> Pengaturan
             </a>
@@ -113,7 +113,7 @@ const Sidebar = ({ onClose }) => {
           <li>
             <a
               href="/"
-              className="flex items-center py-2 text-red-600 hover:bg-gray-100 rounded md:py-3 md:text-lg"
+              className="flex items-center py-2 text-red-600 hover:bg-gray-100 rounded md:py-3 md:text-lg text-xs"
             >
               <i className="bi bi-door-open mr-2"></i> Keluar
             </a>
